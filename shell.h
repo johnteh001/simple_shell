@@ -9,6 +9,7 @@
 #define MAX_COMMAND_LENGTH 1024
 
 void displayPrompt(void);
-void executeCommand(const char *command);
+void executeCommand(char *args[]);
+char *custom_strcat(const char *str1, const char *str2);
 
 #endif /* SHELL_H */
